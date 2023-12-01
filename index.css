@@ -1,0 +1,94 @@
+:root {
+	--wine-red: #c7375f;
+	--bright-red: #d42d2f;
+	--dark-green: #344d2f;
+	--light-green: #77a047;
+	--gold: #fac57d;
+	--snow: #f0f4f7;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+	color: var(--dark-green);
+	background-color: var(--snow);
+	font-family: 'Mountains of Christmas', serif;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	background: var(--wine-red);
+	color: var(--snow);
+	padding: 1rem;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+		rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+	width: 90vw;
+	height: 900vh;
+}
+
+.countdown-display {
+	font-size: 14rem;
+	margin: 0;
+	padding: 1rem;
+}
+
+.countdown-display-extra {
+	font-size: 3rem;
+	margin: 0;
+}
+
+h1 {
+	font-size: 3rem;
+	margin: 0;
+	padding: 1rem;
+}
+
+.countdown-text {
+	font-size: 4rem;
+	margin: 0;
+	padding-bottom: 1rem;
+}
+
+.santa,
+.star,
+.present,
+.snowman {
+	position: absolute;
+	font-size: 3rem;
+	margin: 0;
+}
+
+.santa {
+	left: 5rem;
+	top: 10rem;
+}
+
+.present {
+	right: 5rem;
+	top: 10rem;
+}
+
+.snowman {
+	left: 5rem;
+	bottom: 3rem;
+}
+
+.star {
+	right: 5rem;
+	bottom: 3rem;
+}
